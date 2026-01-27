@@ -1,0 +1,6 @@
+:root {
+  /* Typography */
+  --font-family-main: Inter, sans-serif;
+  --width-content: 1440px;
+  --hover-transition: 0.2s ease-out;
+}

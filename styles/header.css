@@ -1,0 +1,135 @@
+.Header {
+  min-width: var(--width-content);
+  background: linear-gradient(to right, rgba(254, 221, 44, 1), rgba(249, 194, 1, 1));
+}
+
+.Header-Content {
+  display: flex;
+  width: var(--width-content);
+  margin: 0 auto;
+  padding: 16px 64px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Logo {
+  display: flex;
+  text-decoration: none;
+}
+
+.IconLogo-Letter {
+  transition: var(--hover-transition);
+}
+
+.Logo:hover .IconLogo-Letter {
+  fill: rgba(85, 85, 85, 1);
+}
+
+.Nav-List {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.Nav-Item {
+  display: block;
+}
+
+.Nav-Link {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+  color: rgba(85, 85, 85, 1);
+  letter-spacing: 0;
+  transition: var(--hover-transition);
+}
+
+.Nav-Link:hover {
+  color: rgba(28, 28, 28, 1);
+}
+
+.Header-RightBlock {
+  display: flex;
+  gap: 64px;
+}
+
+.Tel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Tel-Phone, .Tel-Text {
+  text-align: right;
+}
+
+.Tel-PhoneNumber {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  text-decoration: none;
+  color: rgba(85, 85, 85, 1);
+  letter-spacing: 0;
+  transition: var(--hover-transition);
+}
+
+.Header .Tel-PhoneNumber:hover {
+  color: rgba(28, 28, 28, 1);
+}
+
+.Tel-Text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
+  color: rgba(85, 85, 85, 1);
+  letter-spacing: 0;
+}
+
+.ControlsPanel {
+  display: flex;
+  gap: 16px;
+}
+
+.ControlsPanel-Btn {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.UserBtn,
+.UserBtn-Content {
+  transition: var(--hover-transition);
+}
+
+.UserBtn {
+  fill: rgba(28, 28, 28, 0);
+}
+
+.UserBtn:hover {
+  fill: rgba(28, 28, 28, 1);
+}
+
+.UserBtn:hover .UserBtn-Content {
+  fill: rgba(255, 255, 255, 1);
+}
+
+.BasketBtn-Background,
+.BasketBtn-Content {
+  transition: var(--hover-transition);
+}
+
+.BasketBtn:hover .BasketBtn-Background {
+  fill: rgba(255, 255, 255, 1);
+}
+
+.BasketBtn:hover .BasketBtn-Content {
+  fill: rgba(28, 28, 28, 1);
+}

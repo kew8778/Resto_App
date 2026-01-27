@@ -1,0 +1,43 @@
+.Bubble {
+  min-width: var(--width-content);
+  background-color: rgba(28, 28, 28, 1);
+} 
+
+.Bubble-Content {
+  display: flex;
+  width: 1440px;
+  margin: 0 auto;
+  padding: 12px 64px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.Bubble-Text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 0;
+}
+
+.Bubble-BtnClose {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.XMark {
+  transition: var(--hover-transition);
+}
+
+.XMark:hover .XMark-Background {
+  fill: rgba(255, 255, 255, 1);;
+}
+
+.XMark:hover .XMark-Content {
+  fill: rgba(57, 57, 57, 1);
+}

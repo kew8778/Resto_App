@@ -1,0 +1,190 @@
+.Footer {
+  min-width: var(--width-content);
+  background-color: rgba(28, 28, 28, 1);
+}
+
+.Footer,
+.Footer-Row01 .Tel-Text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+  color: rgba(166, 166, 166, 1);
+  letter-spacing: 0;
+}
+
+.Footer-Content {
+  display: flex;
+  flex-direction: column;
+  width: var(--width-content);
+  margin: 0 auto;
+  padding: 32px 64px;
+  gap: 32px;
+  box-sizing: border-box;
+}
+
+.Footer-Row01,
+.Footer-Row02,
+.Footer-Row03 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Footer-Row01 .Tel {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.Footer-Row01 .Tel-Phone,
+.Footer-Row01 .Tel-Text {
+  text-align: left;
+}
+
+.Footer-Row01 .Tel-PhoneNumber {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  text-decoration: none;
+  color: rgba(244, 244, 244, 1);
+}
+
+.Footer-Row01 .Tel-PhoneNumber:hover {
+  color: rgba(166, 166, 166, 1);
+}
+
+.Social {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.Social-Link {
+  display: flex;
+  text-decoration: none;
+}
+
+.IconVK-Background,
+.IconTG-Background,
+.IconWhatsApp-Backgroun,
+.IconVK-Content,
+.IconTG-Content,
+.IconWhatsApp-Content {
+  transition: var(--hover-transition);
+}
+
+.Social-Link:hover .IconVK-Background,
+.Social-Link:hover .IconTG-Background,
+.Social-Link:hover .IconWhatsApp-Background {
+  fill: rgba(57, 57, 57, 1);
+}
+
+.Social-Link:hover .IconVK-Content,
+.Social-Link:hover .IconTG-Content,
+.Social-Link:hover .IconWhatsApp-Content {
+  fill: rgba(255, 255, 255, 1);
+}
+
+.ContainerLogo {
+  display: flex;
+  align-items: center;
+  width: 284px;
+  height: 24px;
+}
+
+.Footer .IconLogo-Letter {
+  fill: rgba(255, 255, 255, 1);
+}
+
+.Footer .Logo:hover .IconLogo-Letter {
+  fill: rgba(166, 166, 166, 1);
+}
+
+.Footer .Nav-List {
+  gap: 32px;
+  height: auto;
+}
+
+.Footer .Nav-Link {
+  color: rgba(244, 244, 244, 1);
+}
+
+.Footer .Nav-Link:hover {
+  color: rgba(166, 166, 166, 1);
+}
+
+.Apps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.Apps-Link {
+  display: flex;
+  text-decoration: none;
+}
+
+.IconAppStore-Fragment,
+.IconGooglePay-Fragment,
+.IconGooglePay-LinearGradient {
+  transition: var(--hover-transition);
+}
+
+.Apps-Link:hover .IconAppStore-Fragment,
+.Apps-Link:hover .IconGooglePay-Fragment {
+  fill: rgba(255, 255, 255, 1);
+}
+
+.Apps-Link:hover .IconGooglePay-LinearGradient {
+  fill-opacity: 1;
+}
+
+.Footer-BlockRow03 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.Footer-Doc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.Footer-DocLink {
+  color: rgba(166, 166, 166, 1);
+  text-decoration: none;
+  transition: var(--hover-transition);
+}
+
+.Footer-DocLink:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.GroupPay {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.Line {
+  height: 1px;
+  background-color: rgba(57, 57, 57, 1);
+}
+
+.Developer {
+  text-align: center;
+}
+
+.DeveloperLink {
+  color: rgba(166, 166, 166, 1);
+  text-decoration-color: rgba(166, 166, 166, 1);
+  transition: var(--hover-transition);
+}
+
+.DeveloperLink:hover {
+  color: rgba(255, 255, 255, 1);
+}
