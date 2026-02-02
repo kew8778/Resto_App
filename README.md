@@ -3,6 +3,9 @@
 Спринт поделён на 4 задачи, в каждом был свой кусочек макета, итоговый таковый:\
 https://www.figma.com/design/Bm49cDwwyNUlCzBEVIQzLQ/RestoApp.-1-sprint.-4-task?m=auto&t=yKqBNfzPw85mi2zD-6
 
+Деплой:\
+https://kew8778.github.io/Resto_App/
+
 ## Задача 1:
 Для структуры проекта:
 - На уровне README.md создать точку входа в приложение, файл index.html.
